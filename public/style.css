@@ -42,3 +42,12 @@ ul {
     padding: 30px;
 
 }
+.contact{
+    background-image: url("fish.jpg");
+}
+input[type=text]{
+    width: 60%;
+    height: 20%;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+}

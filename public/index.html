@@ -10,12 +10,12 @@
 
 <body>
     <h1>Bleep</h1>
-    <h4>Dive deep into the marine world with us</h4>
+    <h4 id="home">Dive deep into the marine world with us</h4>
     <hr class="line">
     <ul>
-        <li>Home</li>
-        <li>Opening hours</li>
-        <li>Contact</li>
+        <a href="#home"><li>Home</li></a>
+        <a href="#hours"><li>Opening hours</li></a>
+        <a  href="#contact"><li>Contact</li></a>
     </ul>
     <div class="picture">
         <img src="Sea_sponges.jpg" alt="Sea Sponges">
@@ -27,7 +27,7 @@
         <p>חברה מקצועית אשר מלווה את הלקוח בתהליכי בנייה/ שדרוג האקווריום וכן במתן טיפולים ותחזוקה שוטפת</p>
         <p>יעוץ חינם!</p>
     </div>
-    <div class="hours">
+    <div class="hours" id="hours">
         <div class="hours_details">
             <p>Opening Hours : 24/7</p>
             <p>+972-52-614-6034</p>
@@ -35,6 +35,36 @@
         </div>
         <img src="Aurelia_Jellyfish.jpg" alt="Aurelia_Jellyfish">
     </div>
+    <div class="contact" id="contact">
+        <h2>Contacts us</h2>
+        <form action="">
+            <p class="item">
+                <input type="text" placeholder="Name">
+            </p>
+            <p>
+                <input type="text" placeholder="Email">
+            </p>
+            <p>
+                <input type="text" placeholder="Subject">
+            </p>
+            <p>
+                <input type="text" placeholder="Type your message here...">
+            </p>
+        </form>
+    </div>
+    <h2>Bleep</h2>
+    <p>eransh21@gmail.com</p>
+    <p>052-6146034</p>
+    <p>
+        <a href="https://www.facebook.com/Bleep-102887851460612">https://www.facebook.com/Bleep-102887851460612</a>
+    </p>
+    <p>
+        <a href="https://portfolio-imbb.herokuapp.com/">©2020 by Bleep. Proudly created by IMBB</a>
+    </p>
+
+
+
+
 </body>
 
 </html>
