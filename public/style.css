@@ -44,6 +44,7 @@ ul {
 }
 .contact{
     background-image: url("fish.jpg");
+    color: white;
 }
 input[type=text]{
     width: 60%;
