@@ -1,0 +1,28 @@
+body {
+    margin: auto;
+    width: 800px;
+    text-align: center;
+}
+/* h1, h4{
+    text-align: center;
+} */
+
+hr.line {
+    border: 1px solid black;
+  }
+  
+  ul {
+    list-style-type: none;
+   display: flex;
+   justify-content: space-evenly;
+  }
+
+  .picture >img{
+      width: 100%;
+  }
+  
+  .header{
+      font-size: 5rem;
+     
+    
+  }
