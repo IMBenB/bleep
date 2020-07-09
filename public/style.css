@@ -9,20 +9,36 @@ body {
 
 hr.line {
     border: 1px solid black;
-  }
+}
   
-  ul {
+ul {
     list-style-type: none;
    display: flex;
    justify-content: space-evenly;
-  }
+}
 
-  .picture >img{
+.picture >img{
       width: 100%;
-  }
+}
   
-  .header{
+.header{
       font-size: 5rem;
-     
-    
-  }
+     margin: 50px;
+}
+
+.english{
+    margin-bottom: 30px;
+}
+.hours{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px;
+}
+.hours > img{
+    width: 40%;
+}
+
+.hours_details{
+    padding: 30px;
+
+}
