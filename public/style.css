@@ -46,7 +46,7 @@ ul {
     background-image: url("fish.jpg");
     color: white;
 }
-input[type=text]{
+input{
     width: 60%;
     height: 20%;
     padding: 12px 20px;
