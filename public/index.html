@@ -13,9 +13,15 @@
     <h4 id="home">Dive deep into the marine world with us</h4>
     <hr class="line">
     <ul>
-        <a href="#home"><li>Home</li></a>
-        <a href="#hours"><li>Opening hours</li></a>
-        <a  href="#contact"><li>Contact</li></a>
+        <a href="#home">
+            <li>Home</li>
+        </a>
+        <a href="#hours">
+            <li>Opening hours</li>
+        </a>
+        <a href="#contact">
+            <li>Contact</li>
+        </a>
     </ul>
     <div class="picture">
         <img src="Sea_sponges.jpg" alt="Sea Sponges">
@@ -37,19 +43,20 @@
     </div>
     <div class="contact" id="contact">
         <h2>Contact us</h2>
-        <form action="">
+        <form id="format" onsubmit="contact(event)">
             <p class="item">
-                <input type="text" placeholder="Name">
+                <input name="name" type="text" placeholder="Name">
             </p>
             <p>
-                <input type="text" placeholder="Email">
+                <input name="email" type="text" placeholder="Email">
             </p>
             <p>
-                <input type="text" placeholder="Subject">
+                <input name="subject" type="text" placeholder="Subject">
             </p>
             <p>
-                <input type="text" placeholder="Type your message here...">
+                <input name="text" type="text" placeholder="Type your message here...">
             </p>
+            <input type="submit" placeholder="send">
         </form>
     </div>
     <h2>Bleep</h2>
@@ -66,5 +73,28 @@
 
 
 </body>
+<script>
+    function contact(e) {
+        e.preventDefault();
+        let contact = { name: e.target.name.value, email: e.target.email.value, subject: e.target.subject.value, text: e.target.text.value }
+        console.log(contact);
+        document.getElementById("format").reset();
+        fetch('http://localhost:4000/contact', {
+            method: 'POST',
+            body: JSON.stringify(contact),
+            headers: {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+            }
+
+
+
+        }).then(res => {
+            if (res.ok){
+                alert('messgae sent')
+            }
+        })
+    }
+</script>
 
 </html>
