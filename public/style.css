@@ -74,12 +74,13 @@ input{
 }
 .hours > img{
     max-width:100%;
-    max-height:40%;
+    max-height:100%;
+    object-fit: cover;
     
 }
 
 .hours_details{
-    padding: 30px;
+    padding: 5px;
 
 }
 }
