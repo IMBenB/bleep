@@ -69,11 +69,11 @@ input{
     
 .hours{
     display: flex;
-    justify-content: space-around;
-    margin: 5%;
+    justify-content: space-evenly;
+    
 }
 .hours > img{
-    width: 40%;
+    object-fit:cover;
     
 }
 
