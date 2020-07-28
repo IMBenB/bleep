@@ -73,14 +73,14 @@ input{
     
 }
 .hours > img{
-    max-width:40%;
-    max-height: 100px;
+    max-width:60%;
+    max-height: 300px;
    
     
 }
 
 .hours_details{
-    padding: 5px;
+    padding-right: 10px;
 
 }
 }
