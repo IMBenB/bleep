@@ -55,7 +55,7 @@ input{
     margin-bottom: 20px;
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 600px) {
     body {
         /* margin:3%; */
         width: 100%;
@@ -74,7 +74,6 @@ input{
 }
 .hours > img{
     max-width:40%;
-    max-height:40%;
    
     
 }
