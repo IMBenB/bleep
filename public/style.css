@@ -68,7 +68,8 @@ input{
     margin: 5%;
 }
 .hours > img{
-    object-fit:cover;
+    width: 40%;
+    height: 40%;
 }
 
 .hours_details{
