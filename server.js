@@ -24,7 +24,7 @@ app.post('/contact', (req, res) => {
     });
     let mailOptions={
         from:`${contact.email}`,
-        to: `eranpri21@gmail.com`,
+        to: `eransh21@gmail.com`,
         subject:`Message from ${contact.name}`,
         html:`
         <h3>${contact.subject}</h3>

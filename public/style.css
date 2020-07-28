@@ -43,8 +43,10 @@ ul {
 
 }
 .contact{
-    background-image: url("fish.jpg");
+    background-image: url("fish.jpeg");
     color: white;
+    background-size: contain;
+   
 }
 input{
     width: 60%;
