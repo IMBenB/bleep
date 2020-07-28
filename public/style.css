@@ -58,7 +58,7 @@ input{
 @media only screen and (max-width: 600px) {
     body {
         margin: auto;
-        width: 1rem;
+        width: 100%;
         text-align: center;
     }
     .header{
