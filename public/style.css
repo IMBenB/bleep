@@ -61,15 +61,20 @@ input{
         width: 100%;
         text-align: center;
     }
+    ul {
+        list-style-type: none;
+       display: flex;
+       justify-content: space-evenly;
+    }
     
 .hours{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 5%;
 }
 .hours > img{
     width: 40%;
-    height: 40%;
+    
 }
 
 .hours_details{
